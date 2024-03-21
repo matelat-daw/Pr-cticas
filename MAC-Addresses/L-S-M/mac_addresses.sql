@@ -6265,7 +6265,8 @@ INSERT INTO `mark` (`id`, `mark`) VALUES
 (8, 'Oracle Corporation, 500 Oracle Parkway Redwood Shores, CA 94065 US.'),
 (9, 'Samsung Electronics Co. Ltd, 129 Samsung-ro, Youngtongl-Gu Suwon Gyeonggi-Do KR 16677'),
 (10, 'TP-Link Corporation Limited, Room 901, 9/F.New East Ocean Centre, 9 Science Museum Road, Tsim Sha Tsui Kowloon HK 999077'),
-(11, 'VMware, Inc., 3401 Hillview Avenue, Palo Alto CA 94304 US.');
+(11, 'VMware, Inc., 3401 Hillview Avenue, Palo Alto CA 94304 US.'),
+(12, 'Apple Inc., 1 Infinite Loop Cupertino CA 95014 US.');
 
 
 CREATE TABLE mac-m (
