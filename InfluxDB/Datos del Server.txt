@@ -1,0 +1,33 @@
+TOKEN para conexión de la Organización Laberit con InfluxDB:
+
+O0yl6FUvNxHYkFKHMEXFV3M2GLNggcvIVKgDQEdNbUalXZqyEfqg8zQssfGCOBH1-yPnIE7uC1GlTiUmEr8bYQ==
+
+user: laberit
+pass: @laberit
+
+
+
+// influx write --bucket example-bucket --file C:\Users\cmatelat\OneDrive - Lãberit\Documentos\Prácticas\MAC-Addresses\HP-MAC.csv
+
+
+Token CASA Para InfluxDB:
+
+yePx2-6aAofisOdxKka9XUlu2lR_bEe-KvZ3Kh-WhS1NCcuF54opGmMEr3FCpQpDFP4cFrwNHwu-hjWD6wzjKA==
+
+User: laberit
+Pass: @laberit
+
+Organization: Laberit
+
+Base de Datos: MACDB
+
+
+
+Conexión con el Shell V1 InfluxDB Query Language:
+
+influx v1 shell --host http://localhost:8086 -o Laberit -t yePx2-6aAofisOdxKka9XUlu2lR_bEe-KvZ3Kh-WhS1NCcuF54opGmMEr3FCpQpDFP4cFrwNHwu-hjWD6wzjKA==
+
+
+Crear una nueva Conexión:
+
+influx config create --config-name conn --host-url http://localhost:8086 --org Laberit --token O0yl6FUvNxHYkFKHMEXFV3M2GLNggcvIVKgDQEdNbUalXZqyEfqg8zQssfGCOBH1-yPnIE7uC1GlTiUmEr8bYQ== --active
