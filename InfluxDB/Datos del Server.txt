@@ -30,4 +30,9 @@ influx v1 shell --host http://localhost:8086 -o Laberit -t yePx2-6aAofisOdxKka9X
 
 Crear una nueva Conexión:
 
-influx config create --config-name conn --host-url http://localhost:8086 --org Laberit --token O0yl6FUvNxHYkFKHMEXFV3M2GLNggcvIVKgDQEdNbUalXZqyEfqg8zQssfGCOBH1-yPnIE7uC1GlTiUmEr8bYQ== --active
+influx config create --config-name conn-2 --host-url http://localhost:8086 --org Laberit --token LpDt_u-LNsUCsyKy66zHizVHg-_L-2zGBeS1pzvVXxXbmbMpIXeIBb_VvzDMrm02RPkDDO2gOiFWhNgcF7lYMA== --active
+
+
+Último Token de la Conexión:
+
+LpDt_u-LNsUCsyKy66zHizVHg-_L-2zGBeS1pzvVXxXbmbMpIXeIBb_VvzDMrm02RPkDDO2gOiFWhNgcF7lYMA==
