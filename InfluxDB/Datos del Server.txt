@@ -36,3 +36,16 @@ influx config create --config-name conn-2 --host-url http://localhost:8086 --org
 Último Token de la Conexión:
 
 LpDt_u-LNsUCsyKy66zHizVHg-_L-2zGBeS1pzvVXxXbmbMpIXeIBb_VvzDMrm02RPkDDO2gOiFWhNgcF7lYMA==
+
+
+Query data with influx:
+
+http://localhost:8086/query?pretty=true&u=laberit&p=@laberit --data-urlencode "db=MACDB" --data-urlencode "q=SELECT * FROM mac"
+
+
+
+CURL -G 'http://localhost:8086/query?u=laberit&p=@laberit' --data-urlencode "db=MACDB" --data-urlencode "q=show databases"
+
+
+
+CURL -G http://localhost:8086/query --data-urlencode "u=laberit" --data-urlencode "p=@laberit" --data-urlencode "q=SHOW DATABASES"
