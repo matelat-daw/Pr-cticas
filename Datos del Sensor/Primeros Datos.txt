@@ -1,3 +1,9 @@
 /* Esperando Datos. */
 
 **000c298b48e5; 26; 26; 0; 0; 0; 0; 0; 2; 24; 0; 0; 0; 0; 0; 0**
+
+
+
+
+Expand-Archive .\influxdb2-2.7.5-windows.zip -DestinationPath 'C:\Program Files\InfluxData\'
+mv 'C:\Program Files\InfluxData\influxdb2-2.7.5' 'C:\Program Files\InfluxData\influxdb'
