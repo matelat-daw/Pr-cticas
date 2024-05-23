@@ -1,0 +1,16 @@
+AnyDesk, Máquina Virtual:
+
+pass: C@ballo.12
+
+InfluxDB load CSV File:
+
+cd /
+
+cd tools
+
+C:\Tools influx write -b MACDB -f C:/Tools/data.csv
+
+
+Borrar de InfluxDB:
+
+influx delete --bucket SAIDI_DATA --start 2024-03-01T00:00:00Z --stop 2024-05-14T09:00:00Z
